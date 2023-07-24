@@ -1,8 +1,9 @@
 import React from 'react'
+import AdminPanel from './components/AdminTable'
 
 const page = () => {
   return (
-    <div>page</div>
+    <AdminPanel/>
   )
 }
 

@@ -1,8 +1,11 @@
 import React from 'react'
+import ResultForm from '../../components/ResultForm'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <ResultForm/>
+    </div>
   )
 }
 

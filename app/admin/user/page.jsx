@@ -1,8 +1,11 @@
 import React from 'react'
+import ManageUsers from '../components/ManageUser'
 
 const pages = () => {
   return (
-    <div>pages</div>
+    <div>
+      <ManageUsers/>
+    </div>
   )
 }
 

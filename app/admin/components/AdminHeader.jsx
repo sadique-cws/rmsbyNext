@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const AdminHeader = ({ isLoggedIn }) => {
   return (
-    <header className="flex justify-between items-center py-4 px-8 bg-blue-500">
+    <header className="flex justify-between items-center py-4 px-8 bg-slate-900">
       <Link href="/" className="text-white text-xl font-bold">Admin Panel</Link>
       <nav>
         {isLoggedIn ? (
